@@ -55,7 +55,7 @@ On a control plane node run:
 
 ```
 apt update && apt install git -y # optional if not already installed
-git clone https://github.com/ccollicutt/install-kubernetes
+git clone https://github.com/lftsang/install-kubernetes
 cd install-kubernetes
 # Note the "-c" switch here
 ./install-kubernetes.sh -c
@@ -66,7 +66,7 @@ cd install-kubernetes
 On a worker node run:
 
 ```
-git clone https://github.com/ccollicutt/install-kubernetes
+git clone https://github.com/lftsang/install-kubernetes
 cd install-kubernetes
 ./install-kubernetes.sh
 ```
